@@ -1,0 +1,54 @@
+/* Estilo para el título */
+.titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    background-color: rgb(22, 119, 171);
+    text-align: center;
+    line-height: 50px; 
+  }
+  
+
+  .mat-form-field {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+.mat-form-field-label {
+    font-weight: bold;
+    color: #4b494b;
+  }
+
+
+
+      
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center; /* Esto ayuda a centrar el botón horizontalmente en IE11 */
+  }
+  
+  .button {
+    background-color: #1d1e20;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.8s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    transform: scale(1.09); /* Cambia el tamaño del botón en un 5% al pasar el cursor sobre él */
+  }
+  
+  
+  
+
+
+

@@ -1,0 +1,33 @@
+/* Estilos base para el botón */
+.btnAgregar {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Efecto al pasar el cursor sobre el botón */
+  .btnAgregar:hover {
+    background-color: #bbbbbb;
+    transform: scale(1.05); /* Efecto de escala */
+  }
+  
+  /* Estilo adicional al hacer clic en el botón */
+  .btnAgregar:active {
+    background-color: #9b0e25;
+    transform: scale(0.95); /* Efecto de escala al hacer clic */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Efecto de sombra al hacer clic */
+  }
+
+
+  /* Estilos base para el botón */
+.btnAgregar {
+    /* Tus estilos existentes aquí */
+    margin-bottom: 10px; /* Agrega margen inferior */
+  }
+  
+  
